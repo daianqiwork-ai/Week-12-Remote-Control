@@ -74,8 +74,8 @@ void loop(){
             
             // ====== CSS for On/Off Buttons ====== 
             // *** edit background-color, font-size attributes, etc to fit your preferences here
-            client.println("<style>html { font-family: Helvetica; display: inline-block; margin: 0px auto; text-align: center;}");
-            client.println(".button { background-color: #4CAF50; border: none; color: white; padding: 16px 40px;");
+            client.println("<style>html { font-family: Georgia; display: inline-block; margin: 0px auto; text-align: center;}");
+            client.println(".button { background-image: linear-gradient(to right, #ED4264 0%, #FFEDBC 100%); border: 2px #FFC0CB; color: white; padding: 16px 50px;");
             client.println("text-decoration: none; font-size: 30px; margin: 2px; cursor: pointer;}");
             client.println(".button2 {background-color: #555555;}</style></head>");
             
